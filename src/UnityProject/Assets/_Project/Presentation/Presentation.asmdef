@@ -1,0 +1,17 @@
+{
+    "name": "Presentation",
+    "rootNamespace": "Game.Presentation",
+    "references": [
+        "GameCore",
+        "Content",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

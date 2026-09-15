@@ -1,0 +1,45 @@
+{
+    "name": "TestHarness",
+    "maps": [
+        {
+            "name": "TestHarness",
+            "id": "011721ee-5b83-4f93-bfe8-bdc654d08361",
+            "actions": [
+                {
+                    "name": "PrimaryTap",
+                    "type": "Button",
+                    "id": "61fa733b-7ba5-4e44-a9b0-99c870b2c658",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "635fc3e8-135e-4765-a739-ff6d6ea4738d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryTap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c0fcbb6-59b5-42b9-bdd3-3d400fe5f09c",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryTap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

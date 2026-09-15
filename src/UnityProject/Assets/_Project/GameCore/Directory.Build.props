@@ -1,0 +1,14 @@
+<Project>
+  <!--
+    Doit vivre ici (et pas dans GameCore.csproj) : MSBuild importe Directory.Build.props
+    AVANT le SDK, donc avant que BaseIntermediateOutputPath/MSBuildProjectExtensionsPath ne
+    soient déjà fixés par la restauration NuGet (voir warning MSB3539). Objectif : que
+    bin/ et obj/ du build .NET autonome de GameCore n'atterrissent jamais dans Assets/,
+    où Unity les scannerait comme Plugin et entrerait en collision avec l'assembly
+    Unity du même nom compilée depuis GameCore.asmdef.
+  -->
+  <PropertyGroup>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)../../../.dotnet-build/GameCore/bin/</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)../../../.dotnet-build/GameCore/obj/</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

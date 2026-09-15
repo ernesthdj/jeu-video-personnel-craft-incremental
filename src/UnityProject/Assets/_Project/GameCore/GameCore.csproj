@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Harnais de build hors-Unity (voir docs/IMPLEMENTATION.md pour le contexte complet) :
+    Unity n'est pas installé dans cet environnement d'agent. GameCore a été conçu par le
+    Technical Director comme un assembly C# pur, sans dépendance UnityEngine
+    (ARCHITECTURE.md §1) — ce .csproj permet de le compiler et de le tester réellement en
+    .NET, en dehors de tout éditeur Unity.
+
+    Quand un vrai projet Unity sera ouvert sur ce dossier, Unity généra ses propres
+    fichiers projet (un .csproj par .asmdef) À LA RACINE du dossier UnityProject/, jamais
+    à l'intérieur de Assets/ — ce fichier-ci ne rentre donc pas en collision avec eux.
+    Le vrai point de vérité pour la compo d'assembly Unity reste GameCore.asmdef, présent
+    dans ce même dossier.
+
+    Correctif post-écriture (Unity ouvert pour de vrai) : bin/ et obj/ de ce build .NET
+    sortaient par défaut À L'INTÉRIEUR de Assets/, où Unity les scanne comme un Plugin —
+    collision de nom avec l'assembly Unity du même nom compilée depuis GameCore.asmdef
+    ("Plugin ... has the same filename as Assembly Definition File ..."). La redirection de
+    sortie hors de Assets/ vit dans Directory.Build.props (même dossier) et non ici, car
+    MSBuild doit la connaître avant le SDK/NuGet (voir commentaire de ce fichier).
+  -->
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>Game.Core</RootNamespace>
+    <AssemblyName>GameCore</AssemblyName>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Même package que la dépendance Unity com.unity.nuget.newtonsoft-json (TECH-STACK.md §5) -->
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

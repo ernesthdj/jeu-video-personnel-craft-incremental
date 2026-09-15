@@ -42,6 +42,6 @@ Derniere mise a jour : jamais
 
 ## Workflows actifs
 
-- [ ] Brainstorm initial (`/brainstorm`)
-- [ ] Pipeline agents (`/pipeline`)
+- [x] Brainstorm initial (`/brainstorm`) — niveau 1 seul (projet Game Dev), export dans `docs/FOUNDATION.md`
+- [x] Pipeline agents (`/pipeline`) — type gamedev initialise, Phase 1 (Game Designer) a lancer via `/pipeline next`
 - [x] Graphify projet — seede a la creation, mis a jour a chaque `/hub end`

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfba6893056e3bf468784cad5e397569, type: 3}
+  m_Name: Recipe_WoodenHandle
+  m_EditorClassIdentifier: 
+  _id: craft_wooden_handle
+  _displayName: Forger un manche en bois
+  _inputs:
+  - ItemDefinition: {fileID: 11400000, guid: 5827b0819a3f38143a7c6940a8e5c384, type: 2}
+    Quantity: 3
+  _output: {fileID: 11400000, guid: 81b2add2b55111d41a35199cf5544b0c, type: 2}
+  _miniGameConfig: {fileID: 11400000, guid: 2722672c0bfc38f4a87ccea012cff3cf, type: 2}

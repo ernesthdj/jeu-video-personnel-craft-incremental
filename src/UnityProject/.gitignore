@@ -1,0 +1,22 @@
+# Unity (PROJECT-STRUCTURE.md §3)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]serSettings/
+*.csproj
+*.sln
+*.suo
+.vs/
+
+# Exception : le harnais de build/test .NET pur ajouté pour cette phase (GameCore
+# compilable hors Unity, voir docs/IMPLEMENTATION.md) versionne volontairement son
+# .csproj, contrairement aux .csproj auto-générés par Unity à la racine du projet.
+!Assets/_Project/GameCore/GameCore.csproj
+
+# Sorties de build .NET (bin/obj) de ce même harnais — jamais versionnées.
+bin/
+obj/
