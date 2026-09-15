@@ -1,12 +1,522 @@
 {
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\PIPELINE-STATE.json": {
+    "mtime": 1789471476.0993152,
+    "ast_hash": "7eed26e395159b780620cfbe45380178",
+    "semantic_hash": "7eed26e395159b780620cfbe45380178"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\Content\\Definitions\\CombatantDefinitionSO.cs": {
+    "mtime": 1789471166.5156884,
+    "ast_hash": "abbc9a7651eaca2d3e333d55cffefa94",
+    "semantic_hash": "abbc9a7651eaca2d3e333d55cffefa94"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\Content\\Definitions\\CraftRecipeSO.cs": {
+    "mtime": 1789471161.527805,
+    "ast_hash": "ce23d8d43bf3ce723faf769bcb8302d1",
+    "semantic_hash": "ce23d8d43bf3ce723faf769bcb8302d1"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\Content\\Definitions\\ItemDefinitionSO.cs": {
+    "mtime": 1789471155.149717,
+    "ast_hash": "5fc9bc01d33058d7b5ca8c9bbe391b56",
+    "semantic_hash": "5fc9bc01d33058d7b5ca8c9bbe391b56"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\Content\\Definitions\\MiniGameConfigSO.cs": {
+    "mtime": 1789471149.5092976,
+    "ast_hash": "1d4b3c4b6654c4096fef3d3cb07ebec7",
+    "semantic_hash": "1d4b3c4b6654c4096fef3d3cb07ebec7"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\Content\\Definitions\\ProductionNodeSO.cs": {
+    "mtime": 1789471170.6004636,
+    "ast_hash": "ee33cbcaa512d83f2b6c28080d90a0e0",
+    "semantic_hash": "ee33cbcaa512d83f2b6c28080d90a0e0"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\DevTools\\TestHarnessSeeder.cs": {
+    "mtime": 1789474283.8979628,
+    "ast_hash": "5eff4a2d641bbe648bc1136dc2294f0d",
+    "semantic_hash": "5eff4a2d641bbe648bc1136dc2294f0d"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\DevTools\\Editor\\TestHarnessSetup.cs": {
+    "mtime": 1789474983.6025352,
+    "ast_hash": "cbdbfc30cc93cdfe8831ae673296e680",
+    "semantic_hash": "cbdbfc30cc93cdfe8831ae673296e680"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\AggressiveAI.cs": {
+    "mtime": 1789471088.1906807,
+    "ast_hash": "f18020ccb011b4ff5dac4ede5ed7e97b",
+    "semantic_hash": "f18020ccb011b4ff5dac4ede5ed7e97b"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\CombatActionResolver.cs": {
+    "mtime": 1789470681.3937905,
+    "ast_hash": "dd95f10587eddb070a4da32e30fbb971",
+    "semantic_hash": "dd95f10587eddb070a4da32e30fbb971"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\CombatActionResult.cs": {
+    "mtime": 1789470671.8735137,
+    "ast_hash": "4570387aa4acd3aab5a8209b23cd48f5",
+    "semantic_hash": "4570387aa4acd3aab5a8209b23cd48f5"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\CombatantBase.cs": {
+    "mtime": 1789470656.1441288,
+    "ast_hash": "c1367c829dcf155732827f826825ee08",
+    "semantic_hash": "c1367c829dcf155732827f826825ee08"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\CombatantDefinition.cs": {
+    "mtime": 1789470663.7171226,
+    "ast_hash": "2249e2695c778d9856e437c7c294e541",
+    "semantic_hash": "2249e2695c778d9856e437c7c294e541"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\CombatantFactory.cs": {
+    "mtime": 1789470668.5369036,
+    "ast_hash": "09b38935e75bdfedb831b0bf40cf9227",
+    "semantic_hash": "09b38935e75bdfedb831b0bf40cf9227"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\CombatDecision.cs": {
+    "mtime": 1789470689.7399895,
+    "ast_hash": "7116a719205659b5fd8ec7f7100d81b0",
+    "semantic_hash": "7116a719205659b5fd8ec7f7100d81b0"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\CombatEncounterState.cs": {
+    "mtime": 1789470686.535772,
+    "ast_hash": "80c9df73f8e56b64f8169e274da7906d",
+    "semantic_hash": "80c9df73f8e56b64f8169e274da7906d"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\CombatOutcome.cs": {
+    "mtime": 1789470746.1909695,
+    "ast_hash": "003a21f9b2398df4e1b723c0a8f2ec83",
+    "semantic_hash": "003a21f9b2398df4e1b723c0a8f2ec83"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\CombatPhase.cs": {
+    "mtime": 1789470748.3715215,
+    "ast_hash": "660267496d9cee108508ea61af81c8eb",
+    "semantic_hash": "660267496d9cee108508ea61af81c8eb"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\CombatStateMachine.cs": {
+    "mtime": 1789470786.4140174,
+    "ast_hash": "16cdcda1ebfc0d5f492c27c9999cf5c7",
+    "semantic_hash": "16cdcda1ebfc0d5f492c27c9999cf5c7"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\CombatStates.cs": {
+    "mtime": 1789470757.471907,
+    "ast_hash": "7820e24652eb01fc921092e147d65f40",
+    "semantic_hash": "7820e24652eb01fc921092e147d65f40"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\CreatureCombatant.cs": {
+    "mtime": 1789470661.084335,
+    "ast_hash": "4710dddce074700c97c2b18c70b650b9",
+    "semantic_hash": "4710dddce074700c97c2b18c70b650b9"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\IActionResolver.cs": {
+    "mtime": 1789470675.0719,
+    "ast_hash": "f5da20947e9cdfabfa48b9ad7ab1e804",
+    "semantic_hash": "f5da20947e9cdfabfa48b9ad7ab1e804"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\ICombatant.cs": {
+    "mtime": 1789470649.120577,
+    "ast_hash": "d981d5c141af31844f9f3c2ca7eb5e4f",
+    "semantic_hash": "d981d5c141af31844f9f3c2ca7eb5e4f"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\ICombatantFactory.cs": {
+    "mtime": 1789470665.541872,
+    "ast_hash": "b0a480da46aef3f4eb600984f39e5d97",
+    "semantic_hash": "b0a480da46aef3f4eb600984f39e5d97"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\ICombatState.cs": {
+    "mtime": 1789470751.5124128,
+    "ast_hash": "8e0dda5110ab0ec5ce1bab62aade3e29",
+    "semantic_hash": "8e0dda5110ab0ec5ce1bab62aade3e29"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\IEnemyAI.cs": {
+    "mtime": 1789470691.75716,
+    "ast_hash": "63edf63cfe4f585f97369ba2b0af4133",
+    "semantic_hash": "63edf63cfe4f585f97369ba2b0af4133"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Combat\\PlayerCombatant.cs": {
+    "mtime": 1789470658.35053,
+    "ast_hash": "803c986462c3ca9b654fe3dd1170fd6a",
+    "semantic_hash": "803c986462c3ca9b654fe3dd1170fd6a"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Common\\GridPosition.cs": {
+    "mtime": 1789470507.5838113,
+    "ast_hash": "cc4e723b2dacae0b0c013eca045eb6e6",
+    "semantic_hash": "cc4e723b2dacae0b0c013eca045eb6e6"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Common\\IsExternalInit.cs": {
+    "mtime": 1789470883.0760887,
+    "ast_hash": "c34a638c22536248bcae2dac1e80f40b",
+    "semantic_hash": "c34a638c22536248bcae2dac1e80f40b"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Crafting\\CraftRecipe.cs": {
+    "mtime": 1789470616.413457,
+    "ast_hash": "e75811cebf6864a3d207ff9567e304c8",
+    "semantic_hash": "e75811cebf6864a3d207ff9567e304c8"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Crafting\\CraftResult.cs": {
+    "mtime": 1789470618.6889892,
+    "ast_hash": "ad8e84b502ca3bba4ca2f29234fc025e",
+    "semantic_hash": "ad8e84b502ca3bba4ca2f29234fc025e"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Crafting\\ICraftProcess.cs": {
+    "mtime": 1789470621.5626662,
+    "ast_hash": "a711a62dc5aca62dbad8da12491043fa",
+    "semantic_hash": "a711a62dc5aca62dbad8da12491043fa"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Crafting\\ManualCraftProcess.cs": {
+    "mtime": 1789470802.3115685,
+    "ast_hash": "ab90dbef331d4a94c0bbf5de2b5ba2b9",
+    "semantic_hash": "ab90dbef331d4a94c0bbf5de2b5ba2b9"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Economy\\Balance.cs": {
+    "mtime": 1789470807.4907537,
+    "ast_hash": "4ed48f3a6872da15033dbc615e8d8f01",
+    "semantic_hash": "4ed48f3a6872da15033dbc615e8d8f01"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Economy\\IEconomyService.cs": {
+    "mtime": 1789470815.356488,
+    "ast_hash": "51544c321a93b6c20f22d01c37bf598a",
+    "semantic_hash": "51544c321a93b6c20f22d01c37bf598a"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Economy\\PlayerId.cs": {
+    "mtime": 1789470805.495626,
+    "ast_hash": "76dddce3802f1a31834075c470944d22",
+    "semantic_hash": "76dddce3802f1a31834075c470944d22"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Economy\\StubEconomyService.cs": {
+    "mtime": 1789470819.4888475,
+    "ast_hash": "c1479e81ec9e8a024eda367c0c19c028",
+    "semantic_hash": "c1479e81ec9e8a024eda367c0c19c028"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Economy\\TradeRequest.cs": {
+    "mtime": 1789470810.1390646,
+    "ast_hash": "ad946288c05e427b8241839ff1f9bd59",
+    "semantic_hash": "ad946288c05e427b8241839ff1f9bd59"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Economy\\TransactionResult.cs": {
+    "mtime": 1789470812.0640914,
+    "ast_hash": "0b00051a8e2c4de048d273b0e2b58750",
+    "semantic_hash": "0b00051a8e2c4de048d273b0e2b58750"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Events\\GameEventBus.cs": {
+    "mtime": 1789470630.2973673,
+    "ast_hash": "55e67a7e18451ac6ef53cbd0da475e78",
+    "semantic_hash": "55e67a7e18451ac6ef53cbd0da475e78"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\GameState\\GameStateMachine.cs": {
+    "mtime": 1789470856.7180395,
+    "ast_hash": "fde55a199891d68bed24b7294115c9f8",
+    "semantic_hash": "fde55a199891d68bed24b7294115c9f8"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\GameState\\IGameState.cs": {
+    "mtime": 1789470850.2196448,
+    "ast_hash": "7c89d9060d91ea1f54031715cbcaa9c3",
+    "semantic_hash": "7c89d9060d91ea1f54031715cbcaa9c3"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\GameState\\SimpleGameStates.cs": {
+    "mtime": 1789470853.7274232,
+    "ast_hash": "1e389e24780db50de0c9aa1012a3c7c7",
+    "semantic_hash": "1e389e24780db50de0c9aa1012a3c7c7"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Inventory\\IInventoryService.cs": {
+    "mtime": 1789470604.6677916,
+    "ast_hash": "b0c9b851800d4b1fcf397204e994eb4d",
+    "semantic_hash": "b0c9b851800d4b1fcf397204e994eb4d"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Inventory\\LocalInventoryService.cs": {
+    "mtime": 1789470611.3192084,
+    "ast_hash": "f39154ed7beb69bf7b29e09abab59669",
+    "semantic_hash": "f39154ed7beb69bf7b29e09abab59669"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Items\\IItemFactory.cs": {
+    "mtime": 1789470597.698946,
+    "ast_hash": "c650d6f9082e2eee7b7a8c32345f7260",
+    "semantic_hash": "c650d6f9082e2eee7b7a8c32345f7260"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Items\\ItemDefinition.cs": {
+    "mtime": 1789470590.6988883,
+    "ast_hash": "829c32227498e3dd2a2d84c02ea1d3d4",
+    "semantic_hash": "829c32227498e3dd2a2d84c02ea1d3d4"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Items\\ItemFactory.cs": {
+    "mtime": 1789470599.258834,
+    "ast_hash": "f2528f094d1c13b18eaa2e158415ea0c",
+    "semantic_hash": "f2528f094d1c13b18eaa2e158415ea0c"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Items\\ItemInstance.cs": {
+    "mtime": 1789470593.753642,
+    "ast_hash": "9be5da2992c3b6d8a0cf84678481300b",
+    "semantic_hash": "9be5da2992c3b6d8a0cf84678481300b"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Items\\ItemQuality.cs": {
+    "mtime": 1789470586.1531317,
+    "ast_hash": "1c0061b4c1104194a89e08d69888cc8c",
+    "semantic_hash": "1c0061b4c1104194a89e08d69888cc8c"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Items\\ItemStack.cs": {
+    "mtime": 1789470595.887139,
+    "ast_hash": "1cbff04ec07908960309eaa85ad17b4d",
+    "semantic_hash": "1cbff04ec07908960309eaa85ad17b4d"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Items\\ItemType.cs": {
+    "mtime": 1789470588.152331,
+    "ast_hash": "53a624bb5b3d38c83e114e64b4230b15",
+    "semantic_hash": "53a624bb5b3d38c83e114e64b4230b15"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\MiniGames\\IMiniGame.cs": {
+    "mtime": 1789470547.1723046,
+    "ast_hash": "ed3145adef88da8e158bbc714d944743",
+    "semantic_hash": "ed3145adef88da8e158bbc714d944743"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\MiniGames\\IMiniGameFactory.cs": {
+    "mtime": 1789470549.5368154,
+    "ast_hash": "27937245782d3a94b0b94f566f603475",
+    "semantic_hash": "27937245782d3a94b0b94f566f603475"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\MiniGames\\MiniGameConfig.cs": {
+    "mtime": 1789470528.2260573,
+    "ast_hash": "c5f6966b68c4bd719880786383d289e1",
+    "semantic_hash": "c5f6966b68c4bd719880786383d289e1"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\MiniGames\\MiniGameContext.cs": {
+    "mtime": 1789470532.1291728,
+    "ast_hash": "0cb2fec151193ab148f56e1fd0998171",
+    "semantic_hash": "0cb2fec151193ab148f56e1fd0998171"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\MiniGames\\MiniGameInputSample.cs": {
+    "mtime": 1789470537.6316867,
+    "ast_hash": "86de3f06f6a11a788e24a6d8982f5544",
+    "semantic_hash": "86de3f06f6a11a788e24a6d8982f5544"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\MiniGames\\MiniGameRegistry.cs": {
+    "mtime": 1789470555.01611,
+    "ast_hash": "614406eed5846c5120d772452466c964",
+    "semantic_hash": "614406eed5846c5120d772452466c964"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\MiniGames\\MiniGameResult.cs": {
+    "mtime": 1789470541.0393853,
+    "ast_hash": "51fd4cad999f95582b580226f3f90a84",
+    "semantic_hash": "51fd4cad999f95582b580226f3f90a84"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\MiniGames\\QualityThreshold.cs": {
+    "mtime": 1789470519.5290964,
+    "ast_hash": "31137a89dbd580c6dfe6f94e1e6129cf",
+    "semantic_hash": "31137a89dbd580c6dfe6f94e1e6129cf"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\MiniGames\\TimingBarMiniGame.cs": {
+    "mtime": 1789471082.1475227,
+    "ast_hash": "26dea36ccc43d80172a9a18f2ab76bab",
+    "semantic_hash": "26dea36ccc43d80172a9a18f2ab76bab"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Production\\IProductionNode.cs": {
+    "mtime": 1789470638.6621735,
+    "ast_hash": "dcc3ba9efef51ed817b3a5259941fbb2",
+    "semantic_hash": "dcc3ba9efef51ed817b3a5259941fbb2"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Production\\OfflineProgressionCalculator.cs": {
+    "mtime": 1789470643.7598782,
+    "ast_hash": "61048abf3a50b9b24a252e2723da40e2",
+    "semantic_hash": "61048abf3a50b9b24a252e2723da40e2"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Production\\ProductionTickResult.cs": {
+    "mtime": 1789470634.7513144,
+    "ast_hash": "cdfb572753602a552f62a94fe31cb7ce",
+    "semantic_hash": "cdfb572753602a552f62a94fe31cb7ce"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Registry\\GameServices.cs": {
+    "mtime": 1789470894.2858026,
+    "ast_hash": "6be13b98b2a18a5f0ce2f70de00db79f",
+    "semantic_hash": "6be13b98b2a18a5f0ce2f70de00db79f"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Save\\GameSaveData.cs": {
+    "mtime": 1789470836.3180256,
+    "ast_hash": "4a57351e4f279297fbb09099f45a00f0",
+    "semantic_hash": "4a57351e4f279297fbb09099f45a00f0"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Save\\ISaveService.cs": {
+    "mtime": 1789470838.8237772,
+    "ast_hash": "77fd06e612a9ecb5188558a02d220de4",
+    "semantic_hash": "77fd06e612a9ecb5188558a02d220de4"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Save\\ItemInstanceSaveData.cs": {
+    "mtime": 1789470832.7305257,
+    "ast_hash": "54c6d619009f2644381dde53f366373a",
+    "semantic_hash": "54c6d619009f2644381dde53f366373a"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Save\\JsonFileSaveService.cs": {
+    "mtime": 1789470847.2007127,
+    "ast_hash": "a7cc7375c0ccf27188124d5a4266e37e",
+    "semantic_hash": "a7cc7375c0ccf27188124d5a4266e37e"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Validation\\IAuthoritativeValidationService.cs": {
+    "mtime": 1789470824.602417,
+    "ast_hash": "415e034f081f6eeb81146a440d9fec5a",
+    "semantic_hash": "415e034f081f6eeb81146a440d9fec5a"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\GameCore\\Validation\\LocalValidationService.cs": {
+    "mtime": 1789470829.291488,
+    "ast_hash": "f59b7fbc4851d1df2c54f71763545349",
+    "semantic_hash": "f59b7fbc4851d1df2c54f71763545349"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\Presentation\\Bootstrap\\GameBootstrap.cs": {
+    "mtime": 1789474194.3403325,
+    "ast_hash": "96dbc3a49172fdbacf10ef5cefbed742",
+    "semantic_hash": "96dbc3a49172fdbacf10ef5cefbed742"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\Presentation\\Combat\\CombatController.cs": {
+    "mtime": 1789471260.1657443,
+    "ast_hash": "7dc98fb0f8098c65af753b9579636074",
+    "semantic_hash": "7dc98fb0f8098c65af753b9579636074"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\Presentation\\Crafting\\CraftManualController.cs": {
+    "mtime": 1789474121.9411075,
+    "ast_hash": "e7f130f720c1586e62ccd0f013a7070f",
+    "semantic_hash": "e7f130f720c1586e62ccd0f013a7070f"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\Presentation\\MiniGames\\TimingBarMiniGameView.cs": {
+    "mtime": 1789474109.0104992,
+    "ast_hash": "6b6626e183d562529ed44f2a4e049b64",
+    "semantic_hash": "6b6626e183d562529ed44f2a4e049b64"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\src\\UnityProject\\Assets\\_Project\\Presentation\\UI\\CraftResultPopupController.cs": {
+    "mtime": 1789471243.5635767,
+    "ast_hash": "5135d95cc63f1ac689fad89831e73811",
+    "semantic_hash": "5135d95cc63f1ac689fad89831e73811"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\tests\\UnityProject\\EditMode\\Combat\\CombatStateMachineTests.cs": {
+    "mtime": 1789471095.5232003,
+    "ast_hash": "2f9a7cc180cf849fce0f18446975948f",
+    "semantic_hash": "2f9a7cc180cf849fce0f18446975948f"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\tests\\UnityProject\\EditMode\\Crafting\\ManualCraftProcessTests.cs": {
+    "mtime": 1789470945.8155167,
+    "ast_hash": "a483abaa96a15dd127c898944d5df1e2",
+    "semantic_hash": "a483abaa96a15dd127c898944d5df1e2"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\tests\\UnityProject\\EditMode\\Inventory\\LocalInventoryServiceTests.cs": {
+    "mtime": 1789470989.276142,
+    "ast_hash": "121f313281246d87409ce5b5e638ff0d",
+    "semantic_hash": "121f313281246d87409ce5b5e638ff0d"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\tests\\UnityProject\\EditMode\\MiniGames\\MiniGameRegistryTests.cs": {
+    "mtime": 1789470984.4514732,
+    "ast_hash": "cf143347b5a027610411728cff47ac1c",
+    "semantic_hash": "cf143347b5a027610411728cff47ac1c"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\tests\\UnityProject\\EditMode\\MiniGames\\TimingBarMiniGameTests.cs": {
+    "mtime": 1789470926.7366571,
+    "ast_hash": "6c6ac4f440cb1a5c8c4e64a2ea112c1e",
+    "semantic_hash": "6c6ac4f440cb1a5c8c4e64a2ea112c1e"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\tests\\UnityProject\\EditMode\\Production\\OfflineProgressionCalculatorTests.cs": {
+    "mtime": 1789470995.3871896,
+    "ast_hash": "c6172439b01ae387991f855d5ecd6b19",
+    "semantic_hash": "c6172439b01ae387991f855d5ecd6b19"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\tests\\UnityProject\\EditMode\\Save\\JsonFileSaveServiceTests.cs": {
+    "mtime": 1789471114.018343,
+    "ast_hash": "d4fa8ac71e7682cef718ae05661bf50f",
+    "semantic_hash": "d4fa8ac71e7682cef718ae05661bf50f"
+  },
   "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\CLAUDE.md": {
-    "mtime": 1789459458.0598438,
-    "ast_hash": "bdb36fbf5061a26b5d0fb393a9f9677c",
-    "semantic_hash": "bdb36fbf5061a26b5d0fb393a9f9677c"
+    "mtime": 1789466002.1625988,
+    "ast_hash": "6d8ed77460c187bc37590dd2137f5943",
+    "semantic_hash": "6d8ed77460c187bc37590dd2137f5943"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\ARCHITECTURE.md": {
+    "mtime": 1789468000.16098,
+    "ast_hash": "8ec688c0dbdb9c0185969a0f16919d79",
+    "semantic_hash": "8ec688c0dbdb9c0185969a0f16919d79"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\ART-DIRECTION.md": {
+    "mtime": 1789469486.7814696,
+    "ast_hash": "23c9c86bea8ee2bfa93e191912bcc734",
+    "semantic_hash": "23c9c86bea8ee2bfa93e191912bcc734"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\CORE-LOOP.md": {
+    "mtime": 1789467065.8306353,
+    "ast_hash": "3fcee1ea4c035c55e0d898d24982e65b",
+    "semantic_hash": "3fcee1ea4c035c55e0d898d24982e65b"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\FEEDBACK-MAP.md": {
+    "mtime": 1789469496.9602237,
+    "ast_hash": "31151c4bfbd80eaa4516845b116eb4d2",
+    "semantic_hash": "31151c4bfbd80eaa4516845b116eb4d2"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\FOUNDATION.md": {
+    "mtime": 1789461209.898535,
+    "ast_hash": "05dcc4772d24fe9e7ddfcc34e8bc727d",
+    "semantic_hash": "05dcc4772d24fe9e7ddfcc34e8bc727d"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\GDD.md": {
+    "mtime": 1789467181.2036762,
+    "ast_hash": "aa4a3428113de3c11a023f1eb09fa1bf",
+    "semantic_hash": "aa4a3428113de3c11a023f1eb09fa1bf"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\HUD-SPEC.md": {
+    "mtime": 1789469462.4833167,
+    "ast_hash": "c92fb7d3bbf87d779a1a122780305e97",
+    "semantic_hash": "c92fb7d3bbf87d779a1a122780305e97"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\IMPLEMENTATION.md": {
+    "mtime": 1789471388.9503627,
+    "ast_hash": "4f0430324941eaed8fede63a7cedb3bb",
+    "semantic_hash": "4f0430324941eaed8fede63a7cedb3bb"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\INPUT-MAP.md": {
+    "mtime": 1789469527.7682948,
+    "ast_hash": "da07540924ea61122e148c5839b7ba0f",
+    "semantic_hash": "da07540924ea61122e148c5839b7ba0f"
   },
   "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\JOURNAL.md": {
-    "mtime": 1789459461.0876582,
-    "ast_hash": "5ff149251733a3a805300c610313ffe5",
-    "semantic_hash": "5ff149251733a3a805300c610313ffe5"
+    "mtime": 1789475453.4623816,
+    "ast_hash": "f9511f4d9b9e235405f6c10ac8626eaa",
+    "semantic_hash": "f9511f4d9b9e235405f6c10ac8626eaa"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\PROJECT-STRUCTURE.md": {
+    "mtime": 1789468026.3844738,
+    "ast_hash": "2153159eb795ed10306007f7f2b99a5c",
+    "semantic_hash": "2153159eb795ed10306007f7f2b99a5c"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\SCOPE.md": {
+    "mtime": 1789467124.3670108,
+    "ast_hash": "0cb57501d470e505d7e052e8f0e4c052",
+    "semantic_hash": "0cb57501d470e505d7e052e8f0e4c052"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\SOUND-DESIGN.md": {
+    "mtime": 1789469525.2022755,
+    "ast_hash": "7be634e0aa72ed53954621a64756979c",
+    "semantic_hash": "7be634e0aa72ed53954621a64756979c"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\SYSTEMS.md": {
+    "mtime": 1789467104.659528,
+    "ast_hash": "7cf544a7262128cc33d2a79ec9790acd",
+    "semantic_hash": "7cf544a7262128cc33d2a79ec9790acd"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\TECH-STACK.md": {
+    "mtime": 1789467926.6679063,
+    "ast_hash": "ad4e37e58bcefb1734be45ec860e94bb",
+    "semantic_hash": "ad4e37e58bcefb1734be45ec860e94bb"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\UI-SCREENS.md": {
+    "mtime": 1789469431.3070235,
+    "ast_hash": "dc76946085f615fd06539f9df0b97b0d",
+    "semantic_hash": "dc76946085f615fd06539f9df0b97b0d"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\VERTICAL-SLICE.md": {
+    "mtime": 1789468049.3565676,
+    "ast_hash": "8441a62cb2bf3cbaf6cb45f310d0a0fe",
+    "semantic_hash": "8441a62cb2bf3cbaf6cb45f310d0a0fe"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\WORLD-MAP.md": {
+    "mtime": 1789469391.47439,
+    "ast_hash": "540f1d5555d3d0502b0e657b35b09a6e",
+    "semantic_hash": "540f1d5555d3d0502b0e657b35b09a6e"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\ZONE-DESIGN.md": {
+    "mtime": 1789469444.331571,
+    "ast_hash": "b9fc82593c5a959417d6784cea4c640d",
+    "semantic_hash": "b9fc82593c5a959417d6784cea4c640d"
+  },
+  "C:\\Users\\ernes\\Desktop\\ProjectsMaster\\projects\\jeu-video-personnel-craft-incremental\\docs\\brainstorm\\L1-fondation.md": {
+    "mtime": 1789460988.0163558,
+    "ast_hash": "7599fcd1c55995de52e1083938b2c837",
+    "semantic_hash": "7599fcd1c55995de52e1083938b2c837"
   }
 }

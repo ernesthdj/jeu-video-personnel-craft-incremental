@@ -1,0 +1,38 @@
+# Cache/build Unity — jamais du contenu projet (cf. PROJECT-STRUCTURE.md, .gitignore Unity)
+src/UnityProject/Library/
+src/UnityProject/Temp/
+src/UnityProject/Logs/
+src/UnityProject/UserSettings/
+src/UnityProject/.dotnet-build/
+src/UnityProject/.vs/
+**/obj/
+**/bin/
+
+# Config/metadonnees Unity generees, pas du contenu auteur
+src/UnityProject/Packages/
+src/UnityProject/ProjectSettings/
+
+# Packages tiers importes par le template Unity par defaut (pas ecrits par nous)
+src/UnityProject/Assets/TextMesh Pro/
+src/UnityProject/Assets/Editor/com.unity.mobile.notifications/
+src/UnityProject/Assets/TutorialInfo/
+
+# Genere par Unity, zero valeur semantique (un par asset)
+*.meta
+
+# Genere par Unity/IDE, pas du contenu source a interpreter
+*.csproj
+*.sln
+.vsconfig
+
+# Secrets (regle globale du workspace)
+.env
+.env.*
+*.key
+*.pem
+*.p12
+node_modules/
+vendor/
+.git/
+*.sqlite
+*.db

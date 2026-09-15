@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "moc",
+      "type": "file",
+      "file": "docs/academique/MOC — jeu-video-personnel-craft-incremental.md",
+      "x": -220,
+      "y": -400,
+      "width": 440,
+      "height": 100
+    },
+    {
+      "id": "archi",
+      "type": "file",
+      "file": "docs/academique/Architecture-en-couches-GameCore-Content-Presentation.md",
+      "x": -220,
+      "y": -220,
+      "width": 440,
+      "height": 100
+    },
+    {
+      "id": "so",
+      "type": "file",
+      "file": "docs/academique/ScriptableObjects-Data-Driven.md",
+      "x": -460,
+      "y": -40,
+      "width": 400,
+      "height": 100
+    },
+    {
+      "id": "asmdef",
+      "type": "file",
+      "file": "docs/academique/Assembly-Definition-Files-asmdef.md",
+      "x": 20,
+      "y": -40,
+      "width": 400,
+      "height": 100
+    },
+    {
+      "id": "spr",
+      "type": "file",
+      "file": "docs/academique/Patterns-Strategy-Factory-Registry.md",
+      "x": -220,
+      "y": 140,
+      "width": 440,
+      "height": 100
+    },
+    {
+      "id": "obs",
+      "type": "file",
+      "file": "docs/academique/Pattern-Observer-EventBus.md",
+      "x": -460,
+      "y": 320,
+      "width": 400,
+      "height": 100
+    },
+    {
+      "id": "fsm",
+      "type": "file",
+      "file": "docs/academique/FSM-par-classes-etat.md",
+      "x": 20,
+      "y": 320,
+      "width": 400,
+      "height": 100
+    },
+    {
+      "id": "test",
+      "type": "file",
+      "file": "docs/academique/Tester-code-Unity-hors-Unity.md",
+      "x": -220,
+      "y": 500,
+      "width": 440,
+      "height": 100
+    },
+    {
+      "id": "msbuild",
+      "type": "file",
+      "file": "docs/academique/Debogage-MSBuild-bin-obj-Directory-Build-props.md",
+      "x": -220,
+      "y": 680,
+      "width": 440,
+      "height": 100
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-moc-archi",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "archi",
+      "toSide": "top",
+      "label": "vue d'ensemble -> fondation"
+    },
+    {
+      "id": "e-archi-so",
+      "fromNode": "archi",
+      "fromSide": "bottom",
+      "toNode": "so",
+      "toSide": "top",
+      "label": "couche Content"
+    },
+    {
+      "id": "e-archi-asmdef",
+      "fromNode": "archi",
+      "fromSide": "bottom",
+      "toNode": "asmdef",
+      "toSide": "top",
+      "label": "implémentation technique"
+    },
+    {
+      "id": "e-so-spr",
+      "fromNode": "so",
+      "fromSide": "bottom",
+      "toNode": "spr",
+      "toSide": "top",
+      "label": "id consommé par la Factory"
+    },
+    {
+      "id": "e-asmdef-spr",
+      "fromNode": "asmdef",
+      "fromSide": "bottom",
+      "toNode": "spr",
+      "toSide": "top",
+      "label": "patterns vivent dans GameCore.asmdef"
+    },
+    {
+      "id": "e-spr-obs",
+      "fromNode": "spr",
+      "fromSide": "bottom",
+      "toNode": "obs",
+      "toSide": "top",
+      "label": "découplage complémentaire"
+    },
+    {
+      "id": "e-spr-fsm",
+      "fromNode": "spr",
+      "fromSide": "bottom",
+      "toNode": "fsm",
+      "toSide": "top",
+      "label": "State = cousin de Strategy"
+    },
+    {
+      "id": "e-obs-test",
+      "fromNode": "obs",
+      "fromSide": "bottom",
+      "toNode": "test",
+      "toSide": "top",
+      "label": "logique testable hors Unity"
+    },
+    {
+      "id": "e-fsm-test",
+      "fromNode": "fsm",
+      "fromSide": "bottom",
+      "toNode": "test",
+      "toSide": "top",
+      "label": "bug trouvé par les tests"
+    },
+    {
+      "id": "e-test-msbuild",
+      "fromNode": "test",
+      "fromSide": "bottom",
+      "toNode": "msbuild",
+      "toSide": "top",
+      "label": "coexistence .csproj + Unity -> conflit bin/obj"
+    },
+    {
+      "id": "e-asmdef-msbuild",
+      "fromNode": "asmdef",
+      "fromSide": "right",
+      "toNode": "msbuild",
+      "toSide": "right",
+      "label": "même arc de débogage réel"
+    }
+  ]
+}
