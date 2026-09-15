@@ -32,11 +32,9 @@ jeu-video-personnel-craft-incremental/
 
 ## Suivi academique
 
-> Renseigne automatiquement par `/brainstorm` (Etape 0) au premier lancement.
-
-Active : a definir (voir /brainstorm)
-Dossier : —
-Derniere mise a jour : —
+Active : oui
+Dossier : docs/academique/
+Derniere mise a jour : jamais
 
 ## Stack
 

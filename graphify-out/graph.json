@@ -1,0 +1,199 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "scaffolding_flow_hub_new",
+        "label": "Scaffolding initial du projet via /hub new",
+        "nodes": [
+          "craftincremental_claude_md",
+          "craftincremental_journal_md",
+          "craftincremental_hub_skill"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.9,
+        "source_file": "docs/JOURNAL.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "CLAUDE.md (jeu-video-personnel-craft-incremental)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "lines 1-49",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "craftincremental_claude_md",
+      "community": 1,
+      "norm_label": "claude.md (jeu-video-personnel-craft-incremental)"
+    },
+    {
+      "label": "JOURNAL.md (jeu-video-personnel-craft-incremental)",
+      "file_type": "document",
+      "source_file": "docs/JOURNAL.md",
+      "source_location": "lines 1-15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "craftincremental_journal_md",
+      "community": 0,
+      "norm_label": "journal.md (jeu-video-personnel-craft-incremental)"
+    },
+    {
+      "label": "/hub (Archiviste ProjectMaster)",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "source_location": "lines 13, 49",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "craftincremental_hub_skill",
+      "community": 0,
+      "norm_label": "/hub (archiviste projectmaster)"
+    },
+    {
+      "label": "/brainstorm (cahier des charges)",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "source_location": "lines 14, 47",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "craftincremental_brainstorm",
+      "community": 1,
+      "norm_label": "/brainstorm (cahier des charges)"
+    },
+    {
+      "label": "/pipeline (agents)",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "source_location": "line 48",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "craftincremental_pipeline",
+      "community": 1,
+      "norm_label": "/pipeline (agents)"
+    },
+    {
+      "label": "Graphify projet (graphe de connaissances local)",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "source_location": "line 49",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "craftincremental_graphify",
+      "community": 0,
+      "norm_label": "graphify projet (graphe de connaissances local)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "line 13",
+      "weight": 1.0,
+      "source": "craftincremental_claude_md",
+      "target": "craftincremental_hub_skill"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "lines 14, 47",
+      "weight": 1.0,
+      "source": "craftincremental_claude_md",
+      "target": "craftincremental_brainstorm"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "line 48",
+      "weight": 1.0,
+      "source": "craftincremental_claude_md",
+      "target": "craftincremental_pipeline"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "line 49",
+      "weight": 1.0,
+      "source": "craftincremental_claude_md",
+      "target": "craftincremental_graphify"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/JOURNAL.md",
+      "source_location": "line 14",
+      "weight": 1.0,
+      "source": "craftincremental_journal_md",
+      "target": "craftincremental_claude_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/JOURNAL.md",
+      "source_location": "line 15",
+      "weight": 1.0,
+      "source": "craftincremental_journal_md",
+      "target": "craftincremental_hub_skill"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "CLAUDE.md",
+      "source_location": "line 49",
+      "weight": 0.85,
+      "source": "craftincremental_hub_skill",
+      "target": "craftincremental_graphify"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "CLAUDE.md",
+      "source_location": "lines 47-48",
+      "weight": 0.75,
+      "source": "craftincremental_brainstorm",
+      "target": "craftincremental_pipeline"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "scaffolding_flow_hub_new",
+      "label": "Scaffolding initial du projet via /hub new",
+      "nodes": [
+        "craftincremental_claude_md",
+        "craftincremental_journal_md",
+        "craftincremental_hub_skill"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/JOURNAL.md"
+    }
+  ],
+  "built_at_commit": "2131ba53e627987a3ed1fdb8e073f299a05cc405"
+}
